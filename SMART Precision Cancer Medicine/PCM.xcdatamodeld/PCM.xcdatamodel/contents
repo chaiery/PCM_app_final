@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="1.2" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D131" minimumToolsVersion="Xcode 4.3" iOSVersion="Automatic">
+    <entity name="DiagnosticReport" representedClassName="DiagnosticReport" syncable="YES">
+        <attribute name="conclusion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmlId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Observation" inverseName="diagnosticReport" inverseEntity="Observation" syncable="YES"/>
+        <relationship name="subject" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Patient" inverseName="diagnosticReport" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="Observation" representedClassName="Observation" syncable="YES">
+        <attribute name="alleleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assessedCondition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dnaSequenceVariation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geneIdCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geneIdDisplay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observedAllele" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referenceAllele" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmlId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="diagnosticReport" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="DiagnosticReport" inverseName="results" inverseEntity="DiagnosticReport" syncable="YES"/>
+        <relationship name="subject" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Patient" inverseName="observations" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <entity name="Patient" representedClassName="Patient" elementID="1.0" syncable="YES">
+        <attribute name="birthDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mrn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmlId" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="diagnosticReport" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DiagnosticReport" inverseName="subject" inverseEntity="DiagnosticReport" syncable="YES"/>
+        <relationship name="observations" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Observation" inverseName="subject" inverseEntity="Observation" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Patient" positionX="-234" positionY="90" width="128" height="163"/>
+        <element name="Observation" positionX="-54" positionY="36" width="128" height="193"/>
+        <element name="DiagnosticReport" positionX="-126" positionY="144" width="128" height="105"/>
+    </elements>
+</model>

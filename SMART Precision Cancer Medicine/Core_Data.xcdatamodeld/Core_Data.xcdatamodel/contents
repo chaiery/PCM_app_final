@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D131" minimumToolsVersion="Xcode 4.3" iOSVersion="Automatic">
+    <entity name="DiagnosticReport" representedClassName="DiagnosticReport" syncable="YES">
+        <attribute name="codedDiagnosisValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conclusion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmlId" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Observation" inverseName="diagnosticReport" inverseEntity="Observation" syncable="YES"/>
+        <relationship name="subject" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Patient" inverseName="diagnosticReport" inverseEntity="Patient" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="xmlId"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="Observation" representedClassName="Observation" syncable="YES">
+        <attribute name="aminoAcidChange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assessedCondition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dnaSequenceVariation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geneIdCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geneIdDisplay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observedAllele" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referenceAllele" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmlId" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="diagnosticReport" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="DiagnosticReport" inverseName="results" inverseEntity="DiagnosticReport" syncable="YES"/>
+        <relationship name="subject" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Patient" inverseName="observations" inverseEntity="Patient" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="xmlId"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="Patient" representedClassName="Patient" syncable="YES">
+        <attribute name="birthDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="middleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mrn" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="xmlId" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="diagnosticReport" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DiagnosticReport" inverseName="subject" inverseEntity="DiagnosticReport" syncable="YES"/>
+        <relationship name="observations" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Observation" inverseName="subject" inverseEntity="Observation" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="xmlId"/>
+                <index value="mrn"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="DiagnosticReport" positionX="279" positionY="15" width="128" height="120"/>
+        <element name="Observation" positionX="117" positionY="-195" width="128" height="195"/>
+        <element name="Patient" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
+</model>

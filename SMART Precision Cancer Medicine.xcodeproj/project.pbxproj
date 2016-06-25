@@ -1,0 +1,1528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A08E7F91AC9C0CC00C9E277 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2A08E7F81AC9C0CC00C9E277 /* Podfile */; };
+		2A09097119A3A24500272943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09097019A3A24500272943 /* Foundation.framework */; };
+		2A09097319A3A24500272943 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09097219A3A24500272943 /* CoreGraphics.framework */; };
+		2A09097519A3A24500272943 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09097419A3A24500272943 /* UIKit.framework */; };
+		2A09097719A3A24500272943 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09097619A3A24500272943 /* CoreData.framework */; };
+		2A09097D19A3A24500272943 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A09097B19A3A24500272943 /* InfoPlist.strings */; };
+		2A09097F19A3A24500272943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A09097E19A3A24500272943 /* main.m */; };
+		2A09098319A3A24500272943 /* RICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A09098219A3A24500272943 /* RICAppDelegate.m */; };
+		2A09098819A3A24500272943 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A09098719A3A24500272943 /* Images.xcassets */; };
+		2A09098F19A3A24500272943 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09098E19A3A24500272943 /* XCTest.framework */; };
+		2A09099019A3A24500272943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09097019A3A24500272943 /* Foundation.framework */; };
+		2A09099119A3A24500272943 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09097419A3A24500272943 /* UIKit.framework */; };
+		2A09099219A3A24500272943 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09097619A3A24500272943 /* CoreData.framework */; };
+		2A09099A19A3A24500272943 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A09099819A3A24500272943 /* InfoPlist.strings */; };
+		2A09099C19A3A24500272943 /* SMART_Precision_Cancer_MedicineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A09099B19A3A24500272943 /* SMART_Precision_Cancer_MedicineTests.m */; };
+		2A0B292519AA54B200493859 /* PrimaryTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0B292419AA54B200493859 /* PrimaryTabBarController.m */; };
+		2A0D6D391AF13D6A006396AF /* PatientContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D6D381AF13D6A006396AF /* PatientContainerView.m */; };
+		2A0D6D8F1AF30599006396AF /* DrugDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D6D8E1AF30599006396AF /* DrugDataHelper.m */; };
+		2A0D6D991AF3D136006396AF /* DrugReferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D6D981AF3D136006396AF /* DrugReferenceViewController.m */; };
+		2A0D6D9C1AF3DEF9006396AF /* DrugReferenceLinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D6D9B1AF3DEF9006396AF /* DrugReferenceLinkView.m */; };
+		2A14C00119DC3CF300F531CF /* AboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14C00019DC3CF300F531CF /* AboutUsController.m */; };
+		2A14C00519DC402E00F531CF /* AboutUsSectionHeaderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14C00419DC402E00F531CF /* AboutUsSectionHeaderLabel.m */; };
+		2A14C00819DC44CB00F531CF /* AboutUsSpacerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14C00719DC44CB00F531CF /* AboutUsSpacerLabel.m */; };
+		2A14C00B19DC4E7500F531CF /* AboutUsBlueHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14C00A19DC4E7500F531CF /* AboutUsBlueHeader.m */; };
+		2A173C0C1AEAEB6200F328CB /* PCM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A173C0A1AEAEB6200F328CB /* PCM.xcdatamodeld */; };
+		2A173C0F1AEAEE2500F328CB /* DiagnosticReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A173C0E1AEAEE2500F328CB /* DiagnosticReport.m */; };
+		2A173C121AEAEE2500F328CB /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A173C111AEAEE2500F328CB /* Patient.m */; };
+		2A173C151AEAEE2500F328CB /* Observation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A173C141AEAEE2500F328CB /* Observation.m */; };
+		2A173C1F1AEC149100F328CB /* EntitySearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A173C1E1AEC149100F328CB /* EntitySearchService.m */; };
+		2A173C221AEE807100F328CB /* AdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A173C211AEE807100F328CB /* AdminViewController.m */; };
+		2A1A190B19D454AF0032B608 /* PatientPlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A190A19D454AF0032B608 /* PatientPlotViewController.m */; };
+		2A1A190E19D475390032B608 /* MutationDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A190D19D475390032B608 /* MutationDataHelper.m */; };
+		2A1B92F119B629D100DDA638 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1B92F019B629D100DDA638 /* Accelerate.framework */; };
+		2A1B92F319B629DB00DDA638 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1B92F219B629DB00DDA638 /* QuartzCore.framework */; };
+		2A59857219D061D5000FF29C /* GeneDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A59857119D061D5000FF29C /* GeneDataHelper.m */; };
+		2A78ECCA19B0B8A700CD4595 /* PatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A78ECC919B0B8A700CD4595 /* PatientViewController.m */; };
+		2A78ECCD19B0B8B600CD4595 /* PatientDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A78ECCC19B0B8B600CD4595 /* PatientDetailView.m */; };
+		2A8CA6FD1AE7FAC20027722C /* PatientResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CA6FC1AE7FAC20027722C /* PatientResourceLoader.m */; };
+		2A8CA7001AE803F10027722C /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CA6FF1AE803F10027722C /* SplashScreenViewController.m */; };
+		2A8CA7031AE8040D0027722C /* SplashScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CA7021AE8040D0027722C /* SplashScreenView.m */; };
+		2A8CA7071AE8097A0027722C /* SplashScreenFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CA7061AE8097A0027722C /* SplashScreenFooterView.m */; };
+		2A99B55019D1BF9300C0C911 /* LargePiePlotNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B54F19D1BF9300C0C911 /* LargePiePlotNavigationController.m */; };
+		2A9FCD9F1AF7C5F70027E612 /* PCMGraphHostingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FCD9E1AF7C5F70027E612 /* PCMGraphHostingView.m */; };
+		2A9FCDA21AF7C68B0027E612 /* PCMSmallPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FCDA11AF7C68B0027E612 /* PCMSmallPieChart.m */; };
+		2A9FCDA51AF7C73D0027E612 /* PCMXYGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FCDA41AF7C73D0027E612 /* PCMXYGraph.m */; };
+		2AB4EBB119AD37E1002A2EFF /* PatientSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4EBB019AD37E1002A2EFF /* PatientSearchTableViewController.m */; };
+		2AC4F2AA19D4C0A40041EDA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC4F2A919D4C0A40041EDA3 /* Security.framework */; };
+		2AD84A4A19C1DB2A009511D2 /* PatientViewTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD84A4919C1DB2A009511D2 /* PatientViewTitleLabel.m */; };
+		2AD84A4D19C1DBC1009511D2 /* PatientDetailLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD84A4C19C1DBC1009511D2 /* PatientDetailLabel.m */; };
+		2AFC8BFB1AF8F0A500095BFB /* PCMMediumPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC8BFA1AF8F0A500095BFB /* PCMMediumPieChart.m */; };
+		2AFC8C041AF92ED700095BFB /* PCMInnerPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC8C031AF92ED700095BFB /* PCMInnerPieChart.m */; };
+		2AFC8C071AF93C5900095BFB /* PCMOuterPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC8C061AF93C5900095BFB /* PCMOuterPieChart.m */; };
+		697C300F1B737ED700FBA88F /* LOFOutlierPlotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697C300E1B737ED700FBA88F /* LOFOutlierPlotController.m */; };
+		699C8B431B613FD90062947D /* MutationChartPlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C8B421B613FD90062947D /* MutationChartPlotViewController.m */; };
+		699C8B461B68C48A0062947D /* MutationGeneTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C8B451B68C48A0062947D /* MutationGeneTableView.m */; };
+		699C8B491B69303A0062947D /* ObservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C8B481B69303A0062947D /* ObservationViewController.m */; };
+		699C8B4C1B693F2D0062947D /* ObservationContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C8B4B1B693F2D0062947D /* ObservationContainerView.m */; };
+		699C8B4F1B694D690062947D /* GeneDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C8B4E1B694D690062947D /* GeneDetailView.m */; };
+		699C8B521B69F0230062947D /* MutationSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C8B511B69F0230062947D /* MutationSearchTableViewController.m */; };
+		69D80BE11B5907D400431538 /* patient-1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B4B1B5907D400431538 /* patient-1.xml */; };
+		69D80BE21B5907D400431538 /* patient-2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B4C1B5907D400431538 /* patient-2.xml */; };
+		69D80BE31B5907D400431538 /* patient-3.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B4D1B5907D400431538 /* patient-3.xml */; };
+		69D80BE41B5907D400431538 /* patient-4.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B4E1B5907D400431538 /* patient-4.xml */; };
+		69D80BE51B5907D400431538 /* patient-5.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B4F1B5907D400431538 /* patient-5.xml */; };
+		69D80BE61B5907D400431538 /* patient-6.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B501B5907D400431538 /* patient-6.xml */; };
+		69D80BE71B5907D400431538 /* patient-7.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B511B5907D400431538 /* patient-7.xml */; };
+		69D80BE81B5907D400431538 /* patient-8.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B521B5907D400431538 /* patient-8.xml */; };
+		69D80BE91B5907D400431538 /* patient-9.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B531B5907D400431538 /* patient-9.xml */; };
+		69D80BEA1B5907D400431538 /* patient-10.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B541B5907D400431538 /* patient-10.xml */; };
+		69D80BEB1B5907D400431538 /* patient-11.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B551B5907D400431538 /* patient-11.xml */; };
+		69D80BEC1B5907D400431538 /* patient-12.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B561B5907D400431538 /* patient-12.xml */; };
+		69D80BED1B5907D400431538 /* patient-13.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B571B5907D400431538 /* patient-13.xml */; };
+		69D80BEE1B5907D400431538 /* patient-14.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B581B5907D400431538 /* patient-14.xml */; };
+		69D80BEF1B5907D400431538 /* patient-15.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B591B5907D400431538 /* patient-15.xml */; };
+		69D80BF01B5907D400431538 /* patient-16.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B5A1B5907D400431538 /* patient-16.xml */; };
+		69D80BF11B5907D400431538 /* patient-17.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B5B1B5907D400431538 /* patient-17.xml */; };
+		69D80BF21B5907D400431538 /* patient-18.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B5C1B5907D400431538 /* patient-18.xml */; };
+		69D80BF31B5907D400431538 /* patient-19.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B5D1B5907D400431538 /* patient-19.xml */; };
+		69D80BF41B5907D400431538 /* patient-20.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B5E1B5907D400431538 /* patient-20.xml */; };
+		69D80BF51B5907D400431538 /* patient-21.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B5F1B5907D400431538 /* patient-21.xml */; };
+		69D80BF61B5907D400431538 /* patient-22.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B601B5907D400431538 /* patient-22.xml */; };
+		69D80BF71B5907D400431538 /* patient-23.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B611B5907D400431538 /* patient-23.xml */; };
+		69D80BF81B5907D400431538 /* patient-24.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B621B5907D400431538 /* patient-24.xml */; };
+		69D80BF91B5907D400431538 /* patient-25.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B631B5907D400431538 /* patient-25.xml */; };
+		69D80BFA1B5907D400431538 /* patient-26.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B641B5907D400431538 /* patient-26.xml */; };
+		69D80BFB1B5907D400431538 /* patient-27.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B651B5907D400431538 /* patient-27.xml */; };
+		69D80BFC1B5907D400431538 /* patient-28.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B661B5907D400431538 /* patient-28.xml */; };
+		69D80BFD1B5907D400431538 /* patient-29.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B671B5907D400431538 /* patient-29.xml */; };
+		69D80BFE1B5907D400431538 /* patient-30.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B681B5907D400431538 /* patient-30.xml */; };
+		69D80BFF1B5907D400431538 /* patient-31.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B691B5907D400431538 /* patient-31.xml */; };
+		69D80C001B5907D400431538 /* patient-32.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B6A1B5907D400431538 /* patient-32.xml */; };
+		69D80C011B5907D400431538 /* patient-33.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B6B1B5907D400431538 /* patient-33.xml */; };
+		69D80C021B5907D400431538 /* patient-34.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B6C1B5907D400431538 /* patient-34.xml */; };
+		69D80C031B5907D400431538 /* patient-35.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B6D1B5907D400431538 /* patient-35.xml */; };
+		69D80C041B5907D400431538 /* patient-36.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B6E1B5907D400431538 /* patient-36.xml */; };
+		69D80C051B5907D400431538 /* patient-37.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B6F1B5907D400431538 /* patient-37.xml */; };
+		69D80C061B5907D400431538 /* patient-38.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B701B5907D400431538 /* patient-38.xml */; };
+		69D80C071B5907D400431538 /* patient-39.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B711B5907D400431538 /* patient-39.xml */; };
+		69D80C081B5907D400431538 /* patient-40.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B721B5907D400431538 /* patient-40.xml */; };
+		69D80C091B5907D400431538 /* patient-41.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B731B5907D400431538 /* patient-41.xml */; };
+		69D80C0A1B5907D400431538 /* patient-42.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B741B5907D400431538 /* patient-42.xml */; };
+		69D80C0B1B5907D400431538 /* patient-43.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B751B5907D400431538 /* patient-43.xml */; };
+		69D80C0C1B5907D400431538 /* patient-44.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B761B5907D400431538 /* patient-44.xml */; };
+		69D80C0D1B5907D400431538 /* patient-45.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B771B5907D400431538 /* patient-45.xml */; };
+		69D80C0E1B5907D400431538 /* patient-46.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B781B5907D400431538 /* patient-46.xml */; };
+		69D80C0F1B5907D400431538 /* patient-47.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B791B5907D400431538 /* patient-47.xml */; };
+		69D80C101B5907D400431538 /* patient-48.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B7A1B5907D400431538 /* patient-48.xml */; };
+		69D80C111B5907D400431538 /* patient-49.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B7B1B5907D400431538 /* patient-49.xml */; };
+		69D80C121B5907D400431538 /* patient-50.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B7C1B5907D400431538 /* patient-50.xml */; };
+		69D80C131B5907D400431538 /* patient-51.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B7D1B5907D400431538 /* patient-51.xml */; };
+		69D80C141B5907D400431538 /* patient-52.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B7E1B5907D400431538 /* patient-52.xml */; };
+		69D80C151B5907D400431538 /* patient-53.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B7F1B5907D400431538 /* patient-53.xml */; };
+		69D80C161B5907D400431538 /* patient-54.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B801B5907D400431538 /* patient-54.xml */; };
+		69D80C171B5907D400431538 /* patient-55.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B811B5907D400431538 /* patient-55.xml */; };
+		69D80C181B5907D400431538 /* patient-56.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B821B5907D400431538 /* patient-56.xml */; };
+		69D80C191B5907D400431538 /* patient-57.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B831B5907D400431538 /* patient-57.xml */; };
+		69D80C1A1B5907D400431538 /* patient-58.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B841B5907D400431538 /* patient-58.xml */; };
+		69D80C1B1B5907D400431538 /* patient-59.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B851B5907D400431538 /* patient-59.xml */; };
+		69D80C1C1B5907D400431538 /* patient-60.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B861B5907D400431538 /* patient-60.xml */; };
+		69D80C1D1B5907D400431538 /* patient-61.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B871B5907D400431538 /* patient-61.xml */; };
+		69D80C1E1B5907D400431538 /* patient-62.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B881B5907D400431538 /* patient-62.xml */; };
+		69D80C1F1B5907D400431538 /* patient-63.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B891B5907D400431538 /* patient-63.xml */; };
+		69D80C201B5907D400431538 /* patient-64.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B8A1B5907D400431538 /* patient-64.xml */; };
+		69D80C211B5907D400431538 /* patient-65.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B8B1B5907D400431538 /* patient-65.xml */; };
+		69D80C221B5907D400431538 /* patient-66.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B8C1B5907D400431538 /* patient-66.xml */; };
+		69D80C231B5907D400431538 /* patient-67.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B8D1B5907D400431538 /* patient-67.xml */; };
+		69D80C241B5907D400431538 /* patient-68.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B8E1B5907D400431538 /* patient-68.xml */; };
+		69D80C251B5907D400431538 /* patient-69.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B8F1B5907D400431538 /* patient-69.xml */; };
+		69D80C261B5907D400431538 /* patient-70.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B901B5907D400431538 /* patient-70.xml */; };
+		69D80C271B5907D400431538 /* patient-71.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B911B5907D400431538 /* patient-71.xml */; };
+		69D80C281B5907D400431538 /* patient-72.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B921B5907D400431538 /* patient-72.xml */; };
+		69D80C291B5907D400431538 /* patient-73.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B931B5907D400431538 /* patient-73.xml */; };
+		69D80C2A1B5907D400431538 /* patient-74.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B941B5907D400431538 /* patient-74.xml */; };
+		69D80C2B1B5907D400431538 /* patient-75.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B951B5907D400431538 /* patient-75.xml */; };
+		69D80C2C1B5907D400431538 /* patient-76.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B961B5907D400431538 /* patient-76.xml */; };
+		69D80C2D1B5907D400431538 /* patient-77.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B971B5907D400431538 /* patient-77.xml */; };
+		69D80C2E1B5907D400431538 /* patient-78.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B981B5907D400431538 /* patient-78.xml */; };
+		69D80C2F1B5907D400431538 /* patient-79.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B991B5907D400431538 /* patient-79.xml */; };
+		69D80C301B5907D400431538 /* patient-80.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B9A1B5907D400431538 /* patient-80.xml */; };
+		69D80C311B5907D400431538 /* patient-81.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B9B1B5907D400431538 /* patient-81.xml */; };
+		69D80C321B5907D400431538 /* patient-82.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B9C1B5907D400431538 /* patient-82.xml */; };
+		69D80C331B5907D400431538 /* patient-83.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B9D1B5907D400431538 /* patient-83.xml */; };
+		69D80C341B5907D400431538 /* patient-84.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B9E1B5907D400431538 /* patient-84.xml */; };
+		69D80C351B5907D400431538 /* patient-85.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80B9F1B5907D400431538 /* patient-85.xml */; };
+		69D80C361B5907D400431538 /* patient-86.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA01B5907D400431538 /* patient-86.xml */; };
+		69D80C371B5907D400431538 /* patient-87.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA11B5907D400431538 /* patient-87.xml */; };
+		69D80C381B5907D400431538 /* patient-88.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA21B5907D400431538 /* patient-88.xml */; };
+		69D80C391B5907D400431538 /* patient-89.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA31B5907D400431538 /* patient-89.xml */; };
+		69D80C3A1B5907D400431538 /* patient-90.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA41B5907D400431538 /* patient-90.xml */; };
+		69D80C3B1B5907D400431538 /* patient-91.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA51B5907D400431538 /* patient-91.xml */; };
+		69D80C3C1B5907D400431538 /* patient-92.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA61B5907D400431538 /* patient-92.xml */; };
+		69D80C3D1B5907D400431538 /* patient-93.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA71B5907D400431538 /* patient-93.xml */; };
+		69D80C3E1B5907D400431538 /* patient-94.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA81B5907D400431538 /* patient-94.xml */; };
+		69D80C3F1B5907D400431538 /* patient-95.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BA91B5907D400431538 /* patient-95.xml */; };
+		69D80C401B5907D400431538 /* patient-96.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BAA1B5907D400431538 /* patient-96.xml */; };
+		69D80C411B5907D400431538 /* patient-97.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BAB1B5907D400431538 /* patient-97.xml */; };
+		69D80C421B5907D400431538 /* patient-98.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BAC1B5907D400431538 /* patient-98.xml */; };
+		69D80C431B5907D400431538 /* patient-99.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BAD1B5907D400431538 /* patient-99.xml */; };
+		69D80C441B5907D400431538 /* patient-100.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BAE1B5907D400431538 /* patient-100.xml */; };
+		69D80C451B5907D400431538 /* patient-101.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BAF1B5907D400431538 /* patient-101.xml */; };
+		69D80C461B5907D400431538 /* patient-102.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB01B5907D400431538 /* patient-102.xml */; };
+		69D80C471B5907D400431538 /* patient-103.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB11B5907D400431538 /* patient-103.xml */; };
+		69D80C481B5907D400431538 /* patient-104.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB21B5907D400431538 /* patient-104.xml */; };
+		69D80C491B5907D400431538 /* patient-105.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB31B5907D400431538 /* patient-105.xml */; };
+		69D80C4A1B5907D400431538 /* patient-106.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB41B5907D400431538 /* patient-106.xml */; };
+		69D80C4B1B5907D400431538 /* patient-107.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB51B5907D400431538 /* patient-107.xml */; };
+		69D80C4C1B5907D400431538 /* patient-108.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB61B5907D400431538 /* patient-108.xml */; };
+		69D80C4D1B5907D400431538 /* patient-109.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB71B5907D400431538 /* patient-109.xml */; };
+		69D80C4E1B5907D400431538 /* patient-110.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB81B5907D400431538 /* patient-110.xml */; };
+		69D80C4F1B5907D400431538 /* patient-111.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BB91B5907D400431538 /* patient-111.xml */; };
+		69D80C501B5907D400431538 /* patient-112.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BBA1B5907D400431538 /* patient-112.xml */; };
+		69D80C511B5907D400431538 /* patient-113.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BBB1B5907D400431538 /* patient-113.xml */; };
+		69D80C521B5907D400431538 /* patient-114.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BBC1B5907D400431538 /* patient-114.xml */; };
+		69D80C531B5907D400431538 /* patient-115.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BBD1B5907D400431538 /* patient-115.xml */; };
+		69D80C541B5907D400431538 /* patient-116.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BBE1B5907D400431538 /* patient-116.xml */; };
+		69D80C551B5907D400431538 /* patient-117.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BBF1B5907D400431538 /* patient-117.xml */; };
+		69D80C561B5907D400431538 /* patient-118.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC01B5907D400431538 /* patient-118.xml */; };
+		69D80C571B5907D400431538 /* patient-119.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC11B5907D400431538 /* patient-119.xml */; };
+		69D80C581B5907D400431538 /* patient-120.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC21B5907D400431538 /* patient-120.xml */; };
+		69D80C591B5907D400431538 /* patient-121.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC31B5907D400431538 /* patient-121.xml */; };
+		69D80C5A1B5907D400431538 /* patient-122.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC41B5907D400431538 /* patient-122.xml */; };
+		69D80C5B1B5907D400431538 /* patient-123.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC51B5907D400431538 /* patient-123.xml */; };
+		69D80C5C1B5907D400431538 /* patient-124.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC61B5907D400431538 /* patient-124.xml */; };
+		69D80C5D1B5907D400431538 /* patient-125.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC71B5907D400431538 /* patient-125.xml */; };
+		69D80C5E1B5907D400431538 /* patient-126.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC81B5907D400431538 /* patient-126.xml */; };
+		69D80C5F1B5907D400431538 /* patient-127.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BC91B5907D400431538 /* patient-127.xml */; };
+		69D80C601B5907D400431538 /* patient-128.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BCA1B5907D400431538 /* patient-128.xml */; };
+		69D80C611B5907D400431538 /* patient-129.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BCB1B5907D400431538 /* patient-129.xml */; };
+		69D80C621B5907D400431538 /* patient-130.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BCC1B5907D400431538 /* patient-130.xml */; };
+		69D80C631B5907D400431538 /* patient-131.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BCD1B5907D400431538 /* patient-131.xml */; };
+		69D80C641B5907D400431538 /* patient-132.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BCE1B5907D400431538 /* patient-132.xml */; };
+		69D80C651B5907D400431538 /* patient-133.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BCF1B5907D400431538 /* patient-133.xml */; };
+		69D80C661B5907D400431538 /* patient-134.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD01B5907D400431538 /* patient-134.xml */; };
+		69D80C671B5907D400431538 /* patient-135.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD11B5907D400431538 /* patient-135.xml */; };
+		69D80C681B5907D400431538 /* patient-136.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD21B5907D400431538 /* patient-136.xml */; };
+		69D80C691B5907D400431538 /* patient-137.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD31B5907D400431538 /* patient-137.xml */; };
+		69D80C6A1B5907D400431538 /* patient-138.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD41B5907D400431538 /* patient-138.xml */; };
+		69D80C6B1B5907D400431538 /* patient-141.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD51B5907D400431538 /* patient-141.xml */; };
+		69D80C6C1B5907D400431538 /* patient-142.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD61B5907D400431538 /* patient-142.xml */; };
+		69D80C6D1B5907D400431538 /* patient-143.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD71B5907D400431538 /* patient-143.xml */; };
+		69D80C6E1B5907D400431538 /* patient-144.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD81B5907D400431538 /* patient-144.xml */; };
+		69D80C6F1B5907D400431538 /* patient-145.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BD91B5907D400431538 /* patient-145.xml */; };
+		69D80C701B5907D400431538 /* patient-146.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BDA1B5907D400431538 /* patient-146.xml */; };
+		69D80C711B5907D400431538 /* patient-147.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BDB1B5907D400431538 /* patient-147.xml */; };
+		69D80C721B5907D400431538 /* patient-148.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BDC1B5907D400431538 /* patient-148.xml */; };
+		69D80C731B5907D400431538 /* patient-149.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BDD1B5907D400431538 /* patient-149.xml */; };
+		69D80C741B5907D400431538 /* patient-150.xml in Resources */ = {isa = PBXBuildFile; fileRef = 69D80BDE1B5907D400431538 /* patient-150.xml */; };
+		69D80C751B5907D400431538 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 69D80BDF1B5907D400431538 /* README.md */; };
+		7DF824DC5CE1DA66DBC8FA14 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9252318735C3871B7FF72061 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A09099319A3A24500272943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A09096519A3A24400272943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A09096C19A3A24400272943;
+			remoteInfo = "SMART Precision Cancer Medicine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FCBF6913CA43D50C81A022 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		10BF71A930E4DB2FDD242BCF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2A08E7F81AC9C0CC00C9E277 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A09096D19A3A24500272943 /* SMART Precision Cancer Medicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMART Precision Cancer Medicine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A09097019A3A24500272943 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A09097219A3A24500272943 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A09097419A3A24500272943 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A09097619A3A24500272943 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2A09097A19A3A24500272943 /* SMART Precision Cancer Medicine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMART Precision Cancer Medicine-Info.plist"; sourceTree = "<group>"; };
+		2A09097C19A3A24500272943 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A09097E19A3A24500272943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A09098019A3A24500272943 /* SMART Precision Cancer Medicine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMART Precision Cancer Medicine-Prefix.pch"; sourceTree = "<group>"; };
+		2A09098119A3A24500272943 /* RICAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RICAppDelegate.h; sourceTree = "<group>"; };
+		2A09098219A3A24500272943 /* RICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RICAppDelegate.m; sourceTree = "<group>"; };
+		2A09098719A3A24500272943 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A09098D19A3A24500272943 /* SMART Precision Cancer MedicineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMART Precision Cancer MedicineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A09098E19A3A24500272943 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2A09099719A3A24500272943 /* SMART Precision Cancer MedicineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMART Precision Cancer MedicineTests-Info.plist"; sourceTree = "<group>"; };
+		2A09099919A3A24500272943 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A09099B19A3A24500272943 /* SMART_Precision_Cancer_MedicineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMART_Precision_Cancer_MedicineTests.m; sourceTree = "<group>"; };
+		2A0B292319AA54B200493859 /* PrimaryTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimaryTabBarController.h; sourceTree = "<group>"; };
+		2A0B292419AA54B200493859 /* PrimaryTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimaryTabBarController.m; sourceTree = "<group>"; };
+		2A0D6D371AF13D6A006396AF /* PatientContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientContainerView.h; sourceTree = "<group>"; };
+		2A0D6D381AF13D6A006396AF /* PatientContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientContainerView.m; sourceTree = "<group>"; };
+		2A0D6D8D1AF30599006396AF /* DrugDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugDataHelper.h; sourceTree = "<group>"; };
+		2A0D6D8E1AF30599006396AF /* DrugDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugDataHelper.m; sourceTree = "<group>"; };
+		2A0D6D971AF3D136006396AF /* DrugReferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugReferenceViewController.h; sourceTree = "<group>"; };
+		2A0D6D981AF3D136006396AF /* DrugReferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugReferenceViewController.m; sourceTree = "<group>"; };
+		2A0D6D9A1AF3DEF9006396AF /* DrugReferenceLinkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugReferenceLinkView.h; sourceTree = "<group>"; };
+		2A0D6D9B1AF3DEF9006396AF /* DrugReferenceLinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugReferenceLinkView.m; sourceTree = "<group>"; };
+		2A14BFFF19DC3CF300F531CF /* AboutUsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsController.h; sourceTree = "<group>"; };
+		2A14C00019DC3CF300F531CF /* AboutUsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsController.m; sourceTree = "<group>"; };
+		2A14C00319DC402E00F531CF /* AboutUsSectionHeaderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsSectionHeaderLabel.h; sourceTree = "<group>"; };
+		2A14C00419DC402E00F531CF /* AboutUsSectionHeaderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsSectionHeaderLabel.m; sourceTree = "<group>"; };
+		2A14C00619DC44CB00F531CF /* AboutUsSpacerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsSpacerLabel.h; sourceTree = "<group>"; };
+		2A14C00719DC44CB00F531CF /* AboutUsSpacerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsSpacerLabel.m; sourceTree = "<group>"; };
+		2A14C00919DC4E7500F531CF /* AboutUsBlueHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsBlueHeader.h; sourceTree = "<group>"; };
+		2A14C00A19DC4E7500F531CF /* AboutUsBlueHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsBlueHeader.m; sourceTree = "<group>"; };
+		2A173C0B1AEAEB6200F328CB /* PCM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PCM.xcdatamodel; sourceTree = "<group>"; };
+		2A173C0D1AEAEE2500F328CB /* DiagnosticReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiagnosticReport.h; sourceTree = "<group>"; };
+		2A173C0E1AEAEE2500F328CB /* DiagnosticReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiagnosticReport.m; sourceTree = "<group>"; };
+		2A173C101AEAEE2500F328CB /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		2A173C111AEAEE2500F328CB /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		2A173C131AEAEE2500F328CB /* Observation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observation.h; sourceTree = "<group>"; };
+		2A173C141AEAEE2500F328CB /* Observation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observation.m; sourceTree = "<group>"; };
+		2A173C1D1AEC149100F328CB /* EntitySearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntitySearchService.h; sourceTree = "<group>"; };
+		2A173C1E1AEC149100F328CB /* EntitySearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntitySearchService.m; sourceTree = "<group>"; };
+		2A173C201AEE807100F328CB /* AdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminViewController.h; sourceTree = "<group>"; };
+		2A173C211AEE807100F328CB /* AdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminViewController.m; sourceTree = "<group>"; };
+		2A1A190919D454AF0032B608 /* PatientPlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientPlotViewController.h; sourceTree = "<group>"; };
+		2A1A190A19D454AF0032B608 /* PatientPlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientPlotViewController.m; sourceTree = "<group>"; };
+		2A1A190C19D475390032B608 /* MutationDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutationDataHelper.h; sourceTree = "<group>"; };
+		2A1A190D19D475390032B608 /* MutationDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutationDataHelper.m; sourceTree = "<group>"; };
+		2A1B92F019B629D100DDA638 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2A1B92F219B629DB00DDA638 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2A59857019D061D5000FF29C /* GeneDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneDataHelper.h; sourceTree = "<group>"; };
+		2A59857119D061D5000FF29C /* GeneDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneDataHelper.m; sourceTree = "<group>"; };
+		2A78ECC819B0B8A700CD4595 /* PatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientViewController.h; sourceTree = "<group>"; };
+		2A78ECC919B0B8A700CD4595 /* PatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientViewController.m; sourceTree = "<group>"; };
+		2A78ECCB19B0B8B600CD4595 /* PatientDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDetailView.h; sourceTree = "<group>"; };
+		2A78ECCC19B0B8B600CD4595 /* PatientDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientDetailView.m; sourceTree = "<group>"; };
+		2A8CA6FB1AE7FAC20027722C /* PatientResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientResourceLoader.h; sourceTree = "<group>"; };
+		2A8CA6FC1AE7FAC20027722C /* PatientResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientResourceLoader.m; sourceTree = "<group>"; };
+		2A8CA6FE1AE803F10027722C /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		2A8CA6FF1AE803F10027722C /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		2A8CA7011AE8040D0027722C /* SplashScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenView.h; sourceTree = "<group>"; };
+		2A8CA7021AE8040D0027722C /* SplashScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenView.m; sourceTree = "<group>"; };
+		2A8CA7051AE8097A0027722C /* SplashScreenFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenFooterView.h; sourceTree = "<group>"; };
+		2A8CA7061AE8097A0027722C /* SplashScreenFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenFooterView.m; sourceTree = "<group>"; };
+		2A8CA7081AE845100027722C /* PatientResourceLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		2A99B54E19D1BF9300C0C911 /* LargePiePlotNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargePiePlotNavigationController.h; sourceTree = "<group>"; };
+		2A99B54F19D1BF9300C0C911 /* LargePiePlotNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargePiePlotNavigationController.m; sourceTree = "<group>"; };
+		2A9FCD9D1AF7C5F70027E612 /* PCMGraphHostingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMGraphHostingView.h; sourceTree = "<group>"; };
+		2A9FCD9E1AF7C5F70027E612 /* PCMGraphHostingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMGraphHostingView.m; sourceTree = "<group>"; };
+		2A9FCDA01AF7C68B0027E612 /* PCMSmallPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMSmallPieChart.h; sourceTree = "<group>"; };
+		2A9FCDA11AF7C68B0027E612 /* PCMSmallPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMSmallPieChart.m; sourceTree = "<group>"; };
+		2A9FCDA31AF7C73D0027E612 /* PCMXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMXYGraph.h; sourceTree = "<group>"; };
+		2A9FCDA41AF7C73D0027E612 /* PCMXYGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMXYGraph.m; sourceTree = "<group>"; };
+		2AB4EBAF19AD37E1002A2EFF /* PatientSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientSearchTableViewController.h; sourceTree = "<group>"; };
+		2AB4EBB019AD37E1002A2EFF /* PatientSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientSearchTableViewController.m; sourceTree = "<group>"; };
+		2AC4F2A919D4C0A40041EDA3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2AD84A4819C1DB2A009511D2 /* PatientViewTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientViewTitleLabel.h; sourceTree = "<group>"; };
+		2AD84A4919C1DB2A009511D2 /* PatientViewTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientViewTitleLabel.m; sourceTree = "<group>"; };
+		2AD84A4B19C1DBC1009511D2 /* PatientDetailLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDetailLabel.h; sourceTree = "<group>"; };
+		2AD84A4C19C1DBC1009511D2 /* PatientDetailLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientDetailLabel.m; sourceTree = "<group>"; };
+		2AFC8BF91AF8F0A500095BFB /* PCMMediumPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMMediumPieChart.h; sourceTree = "<group>"; };
+		2AFC8BFA1AF8F0A500095BFB /* PCMMediumPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMMediumPieChart.m; sourceTree = "<group>"; };
+		2AFC8C021AF92ED700095BFB /* PCMInnerPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMInnerPieChart.h; sourceTree = "<group>"; };
+		2AFC8C031AF92ED700095BFB /* PCMInnerPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMInnerPieChart.m; sourceTree = "<group>"; };
+		2AFC8C051AF93C5900095BFB /* PCMOuterPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMOuterPieChart.h; sourceTree = "<group>"; };
+		2AFC8C061AF93C5900095BFB /* PCMOuterPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMOuterPieChart.m; sourceTree = "<group>"; };
+		697C300D1B737ED700FBA88F /* LOFOutlierPlotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOFOutlierPlotController.h; sourceTree = "<group>"; };
+		697C300E1B737ED700FBA88F /* LOFOutlierPlotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOFOutlierPlotController.m; sourceTree = "<group>"; };
+		699C8B411B613FD90062947D /* MutationChartPlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutationChartPlotViewController.h; sourceTree = "<group>"; };
+		699C8B421B613FD90062947D /* MutationChartPlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutationChartPlotViewController.m; sourceTree = "<group>"; };
+		699C8B441B68C48A0062947D /* MutationGeneTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutationGeneTableView.h; sourceTree = "<group>"; };
+		699C8B451B68C48A0062947D /* MutationGeneTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutationGeneTableView.m; sourceTree = "<group>"; };
+		699C8B471B69303A0062947D /* ObservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservationViewController.h; sourceTree = "<group>"; };
+		699C8B481B69303A0062947D /* ObservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservationViewController.m; sourceTree = "<group>"; };
+		699C8B4A1B693F2D0062947D /* ObservationContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservationContainerView.h; sourceTree = "<group>"; };
+		699C8B4B1B693F2D0062947D /* ObservationContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservationContainerView.m; sourceTree = "<group>"; };
+		699C8B4D1B694D690062947D /* GeneDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneDetailView.h; sourceTree = "<group>"; };
+		699C8B4E1B694D690062947D /* GeneDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneDetailView.m; sourceTree = "<group>"; };
+		699C8B501B69F0230062947D /* MutationSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutationSearchTableViewController.h; sourceTree = "<group>"; };
+		699C8B511B69F0230062947D /* MutationSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutationSearchTableViewController.m; sourceTree = "<group>"; };
+		69D80B4B1B5907D400431538 /* patient-1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-1.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-1.xml"; sourceTree = "<group>"; };
+		69D80B4C1B5907D400431538 /* patient-2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-2.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-2.xml"; sourceTree = "<group>"; };
+		69D80B4D1B5907D400431538 /* patient-3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-3.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-3.xml"; sourceTree = "<group>"; };
+		69D80B4E1B5907D400431538 /* patient-4.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-4.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-4.xml"; sourceTree = "<group>"; };
+		69D80B4F1B5907D400431538 /* patient-5.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-5.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-5.xml"; sourceTree = "<group>"; };
+		69D80B501B5907D400431538 /* patient-6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-6.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-6.xml"; sourceTree = "<group>"; };
+		69D80B511B5907D400431538 /* patient-7.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-7.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-7.xml"; sourceTree = "<group>"; };
+		69D80B521B5907D400431538 /* patient-8.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-8.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-8.xml"; sourceTree = "<group>"; };
+		69D80B531B5907D400431538 /* patient-9.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-9.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-9.xml"; sourceTree = "<group>"; };
+		69D80B541B5907D400431538 /* patient-10.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-10.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-10.xml"; sourceTree = "<group>"; };
+		69D80B551B5907D400431538 /* patient-11.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-11.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-11.xml"; sourceTree = "<group>"; };
+		69D80B561B5907D400431538 /* patient-12.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-12.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-12.xml"; sourceTree = "<group>"; };
+		69D80B571B5907D400431538 /* patient-13.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-13.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-13.xml"; sourceTree = "<group>"; };
+		69D80B581B5907D400431538 /* patient-14.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-14.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-14.xml"; sourceTree = "<group>"; };
+		69D80B591B5907D400431538 /* patient-15.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-15.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-15.xml"; sourceTree = "<group>"; };
+		69D80B5A1B5907D400431538 /* patient-16.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-16.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-16.xml"; sourceTree = "<group>"; };
+		69D80B5B1B5907D400431538 /* patient-17.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-17.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-17.xml"; sourceTree = "<group>"; };
+		69D80B5C1B5907D400431538 /* patient-18.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-18.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-18.xml"; sourceTree = "<group>"; };
+		69D80B5D1B5907D400431538 /* patient-19.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-19.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-19.xml"; sourceTree = "<group>"; };
+		69D80B5E1B5907D400431538 /* patient-20.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-20.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-20.xml"; sourceTree = "<group>"; };
+		69D80B5F1B5907D400431538 /* patient-21.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-21.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-21.xml"; sourceTree = "<group>"; };
+		69D80B601B5907D400431538 /* patient-22.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-22.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-22.xml"; sourceTree = "<group>"; };
+		69D80B611B5907D400431538 /* patient-23.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-23.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-23.xml"; sourceTree = "<group>"; };
+		69D80B621B5907D400431538 /* patient-24.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-24.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-24.xml"; sourceTree = "<group>"; };
+		69D80B631B5907D400431538 /* patient-25.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-25.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-25.xml"; sourceTree = "<group>"; };
+		69D80B641B5907D400431538 /* patient-26.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-26.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-26.xml"; sourceTree = "<group>"; };
+		69D80B651B5907D400431538 /* patient-27.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-27.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-27.xml"; sourceTree = "<group>"; };
+		69D80B661B5907D400431538 /* patient-28.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-28.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-28.xml"; sourceTree = "<group>"; };
+		69D80B671B5907D400431538 /* patient-29.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-29.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-29.xml"; sourceTree = "<group>"; };
+		69D80B681B5907D400431538 /* patient-30.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-30.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-30.xml"; sourceTree = "<group>"; };
+		69D80B691B5907D400431538 /* patient-31.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-31.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-31.xml"; sourceTree = "<group>"; };
+		69D80B6A1B5907D400431538 /* patient-32.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-32.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-32.xml"; sourceTree = "<group>"; };
+		69D80B6B1B5907D400431538 /* patient-33.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-33.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-33.xml"; sourceTree = "<group>"; };
+		69D80B6C1B5907D400431538 /* patient-34.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-34.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-34.xml"; sourceTree = "<group>"; };
+		69D80B6D1B5907D400431538 /* patient-35.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-35.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-35.xml"; sourceTree = "<group>"; };
+		69D80B6E1B5907D400431538 /* patient-36.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-36.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-36.xml"; sourceTree = "<group>"; };
+		69D80B6F1B5907D400431538 /* patient-37.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-37.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-37.xml"; sourceTree = "<group>"; };
+		69D80B701B5907D400431538 /* patient-38.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-38.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-38.xml"; sourceTree = "<group>"; };
+		69D80B711B5907D400431538 /* patient-39.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-39.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-39.xml"; sourceTree = "<group>"; };
+		69D80B721B5907D400431538 /* patient-40.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-40.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-40.xml"; sourceTree = "<group>"; };
+		69D80B731B5907D400431538 /* patient-41.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-41.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-41.xml"; sourceTree = "<group>"; };
+		69D80B741B5907D400431538 /* patient-42.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-42.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-42.xml"; sourceTree = "<group>"; };
+		69D80B751B5907D400431538 /* patient-43.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-43.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-43.xml"; sourceTree = "<group>"; };
+		69D80B761B5907D400431538 /* patient-44.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-44.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-44.xml"; sourceTree = "<group>"; };
+		69D80B771B5907D400431538 /* patient-45.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-45.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-45.xml"; sourceTree = "<group>"; };
+		69D80B781B5907D400431538 /* patient-46.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-46.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-46.xml"; sourceTree = "<group>"; };
+		69D80B791B5907D400431538 /* patient-47.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-47.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-47.xml"; sourceTree = "<group>"; };
+		69D80B7A1B5907D400431538 /* patient-48.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-48.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-48.xml"; sourceTree = "<group>"; };
+		69D80B7B1B5907D400431538 /* patient-49.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-49.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-49.xml"; sourceTree = "<group>"; };
+		69D80B7C1B5907D400431538 /* patient-50.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-50.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-50.xml"; sourceTree = "<group>"; };
+		69D80B7D1B5907D400431538 /* patient-51.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-51.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-51.xml"; sourceTree = "<group>"; };
+		69D80B7E1B5907D400431538 /* patient-52.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-52.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-52.xml"; sourceTree = "<group>"; };
+		69D80B7F1B5907D400431538 /* patient-53.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-53.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-53.xml"; sourceTree = "<group>"; };
+		69D80B801B5907D400431538 /* patient-54.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-54.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-54.xml"; sourceTree = "<group>"; };
+		69D80B811B5907D400431538 /* patient-55.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-55.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-55.xml"; sourceTree = "<group>"; };
+		69D80B821B5907D400431538 /* patient-56.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-56.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-56.xml"; sourceTree = "<group>"; };
+		69D80B831B5907D400431538 /* patient-57.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-57.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-57.xml"; sourceTree = "<group>"; };
+		69D80B841B5907D400431538 /* patient-58.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-58.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-58.xml"; sourceTree = "<group>"; };
+		69D80B851B5907D400431538 /* patient-59.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-59.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-59.xml"; sourceTree = "<group>"; };
+		69D80B861B5907D400431538 /* patient-60.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-60.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-60.xml"; sourceTree = "<group>"; };
+		69D80B871B5907D400431538 /* patient-61.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-61.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-61.xml"; sourceTree = "<group>"; };
+		69D80B881B5907D400431538 /* patient-62.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-62.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-62.xml"; sourceTree = "<group>"; };
+		69D80B891B5907D400431538 /* patient-63.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-63.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-63.xml"; sourceTree = "<group>"; };
+		69D80B8A1B5907D400431538 /* patient-64.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-64.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-64.xml"; sourceTree = "<group>"; };
+		69D80B8B1B5907D400431538 /* patient-65.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-65.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-65.xml"; sourceTree = "<group>"; };
+		69D80B8C1B5907D400431538 /* patient-66.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-66.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-66.xml"; sourceTree = "<group>"; };
+		69D80B8D1B5907D400431538 /* patient-67.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-67.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-67.xml"; sourceTree = "<group>"; };
+		69D80B8E1B5907D400431538 /* patient-68.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-68.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-68.xml"; sourceTree = "<group>"; };
+		69D80B8F1B5907D400431538 /* patient-69.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-69.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-69.xml"; sourceTree = "<group>"; };
+		69D80B901B5907D400431538 /* patient-70.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-70.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-70.xml"; sourceTree = "<group>"; };
+		69D80B911B5907D400431538 /* patient-71.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-71.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-71.xml"; sourceTree = "<group>"; };
+		69D80B921B5907D400431538 /* patient-72.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-72.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-72.xml"; sourceTree = "<group>"; };
+		69D80B931B5907D400431538 /* patient-73.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-73.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-73.xml"; sourceTree = "<group>"; };
+		69D80B941B5907D400431538 /* patient-74.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-74.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-74.xml"; sourceTree = "<group>"; };
+		69D80B951B5907D400431538 /* patient-75.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-75.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-75.xml"; sourceTree = "<group>"; };
+		69D80B961B5907D400431538 /* patient-76.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-76.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-76.xml"; sourceTree = "<group>"; };
+		69D80B971B5907D400431538 /* patient-77.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-77.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-77.xml"; sourceTree = "<group>"; };
+		69D80B981B5907D400431538 /* patient-78.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-78.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-78.xml"; sourceTree = "<group>"; };
+		69D80B991B5907D400431538 /* patient-79.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-79.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-79.xml"; sourceTree = "<group>"; };
+		69D80B9A1B5907D400431538 /* patient-80.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-80.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-80.xml"; sourceTree = "<group>"; };
+		69D80B9B1B5907D400431538 /* patient-81.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-81.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-81.xml"; sourceTree = "<group>"; };
+		69D80B9C1B5907D400431538 /* patient-82.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-82.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-82.xml"; sourceTree = "<group>"; };
+		69D80B9D1B5907D400431538 /* patient-83.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-83.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-83.xml"; sourceTree = "<group>"; };
+		69D80B9E1B5907D400431538 /* patient-84.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-84.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-84.xml"; sourceTree = "<group>"; };
+		69D80B9F1B5907D400431538 /* patient-85.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-85.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-85.xml"; sourceTree = "<group>"; };
+		69D80BA01B5907D400431538 /* patient-86.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-86.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-86.xml"; sourceTree = "<group>"; };
+		69D80BA11B5907D400431538 /* patient-87.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-87.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-87.xml"; sourceTree = "<group>"; };
+		69D80BA21B5907D400431538 /* patient-88.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-88.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-88.xml"; sourceTree = "<group>"; };
+		69D80BA31B5907D400431538 /* patient-89.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-89.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-89.xml"; sourceTree = "<group>"; };
+		69D80BA41B5907D400431538 /* patient-90.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-90.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-90.xml"; sourceTree = "<group>"; };
+		69D80BA51B5907D400431538 /* patient-91.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-91.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-91.xml"; sourceTree = "<group>"; };
+		69D80BA61B5907D400431538 /* patient-92.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-92.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-92.xml"; sourceTree = "<group>"; };
+		69D80BA71B5907D400431538 /* patient-93.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-93.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-93.xml"; sourceTree = "<group>"; };
+		69D80BA81B5907D400431538 /* patient-94.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-94.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-94.xml"; sourceTree = "<group>"; };
+		69D80BA91B5907D400431538 /* patient-95.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-95.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-95.xml"; sourceTree = "<group>"; };
+		69D80BAA1B5907D400431538 /* patient-96.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-96.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-96.xml"; sourceTree = "<group>"; };
+		69D80BAB1B5907D400431538 /* patient-97.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-97.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-97.xml"; sourceTree = "<group>"; };
+		69D80BAC1B5907D400431538 /* patient-98.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-98.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-98.xml"; sourceTree = "<group>"; };
+		69D80BAD1B5907D400431538 /* patient-99.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-99.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-99.xml"; sourceTree = "<group>"; };
+		69D80BAE1B5907D400431538 /* patient-100.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-100.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-100.xml"; sourceTree = "<group>"; };
+		69D80BAF1B5907D400431538 /* patient-101.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-101.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-101.xml"; sourceTree = "<group>"; };
+		69D80BB01B5907D400431538 /* patient-102.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-102.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-102.xml"; sourceTree = "<group>"; };
+		69D80BB11B5907D400431538 /* patient-103.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-103.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-103.xml"; sourceTree = "<group>"; };
+		69D80BB21B5907D400431538 /* patient-104.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-104.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-104.xml"; sourceTree = "<group>"; };
+		69D80BB31B5907D400431538 /* patient-105.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-105.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-105.xml"; sourceTree = "<group>"; };
+		69D80BB41B5907D400431538 /* patient-106.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-106.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-106.xml"; sourceTree = "<group>"; };
+		69D80BB51B5907D400431538 /* patient-107.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-107.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-107.xml"; sourceTree = "<group>"; };
+		69D80BB61B5907D400431538 /* patient-108.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-108.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-108.xml"; sourceTree = "<group>"; };
+		69D80BB71B5907D400431538 /* patient-109.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-109.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-109.xml"; sourceTree = "<group>"; };
+		69D80BB81B5907D400431538 /* patient-110.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-110.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-110.xml"; sourceTree = "<group>"; };
+		69D80BB91B5907D400431538 /* patient-111.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-111.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-111.xml"; sourceTree = "<group>"; };
+		69D80BBA1B5907D400431538 /* patient-112.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-112.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-112.xml"; sourceTree = "<group>"; };
+		69D80BBB1B5907D400431538 /* patient-113.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-113.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-113.xml"; sourceTree = "<group>"; };
+		69D80BBC1B5907D400431538 /* patient-114.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-114.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-114.xml"; sourceTree = "<group>"; };
+		69D80BBD1B5907D400431538 /* patient-115.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-115.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-115.xml"; sourceTree = "<group>"; };
+		69D80BBE1B5907D400431538 /* patient-116.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-116.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-116.xml"; sourceTree = "<group>"; };
+		69D80BBF1B5907D400431538 /* patient-117.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-117.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-117.xml"; sourceTree = "<group>"; };
+		69D80BC01B5907D400431538 /* patient-118.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-118.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-118.xml"; sourceTree = "<group>"; };
+		69D80BC11B5907D400431538 /* patient-119.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-119.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-119.xml"; sourceTree = "<group>"; };
+		69D80BC21B5907D400431538 /* patient-120.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-120.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-120.xml"; sourceTree = "<group>"; };
+		69D80BC31B5907D400431538 /* patient-121.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-121.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-121.xml"; sourceTree = "<group>"; };
+		69D80BC41B5907D400431538 /* patient-122.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-122.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-122.xml"; sourceTree = "<group>"; };
+		69D80BC51B5907D400431538 /* patient-123.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-123.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-123.xml"; sourceTree = "<group>"; };
+		69D80BC61B5907D400431538 /* patient-124.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-124.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-124.xml"; sourceTree = "<group>"; };
+		69D80BC71B5907D400431538 /* patient-125.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-125.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-125.xml"; sourceTree = "<group>"; };
+		69D80BC81B5907D400431538 /* patient-126.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-126.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-126.xml"; sourceTree = "<group>"; };
+		69D80BC91B5907D400431538 /* patient-127.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-127.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-127.xml"; sourceTree = "<group>"; };
+		69D80BCA1B5907D400431538 /* patient-128.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-128.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-128.xml"; sourceTree = "<group>"; };
+		69D80BCB1B5907D400431538 /* patient-129.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-129.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-129.xml"; sourceTree = "<group>"; };
+		69D80BCC1B5907D400431538 /* patient-130.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-130.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-130.xml"; sourceTree = "<group>"; };
+		69D80BCD1B5907D400431538 /* patient-131.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-131.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-131.xml"; sourceTree = "<group>"; };
+		69D80BCE1B5907D400431538 /* patient-132.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-132.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-132.xml"; sourceTree = "<group>"; };
+		69D80BCF1B5907D400431538 /* patient-133.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-133.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-133.xml"; sourceTree = "<group>"; };
+		69D80BD01B5907D400431538 /* patient-134.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-134.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-134.xml"; sourceTree = "<group>"; };
+		69D80BD11B5907D400431538 /* patient-135.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-135.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-135.xml"; sourceTree = "<group>"; };
+		69D80BD21B5907D400431538 /* patient-136.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-136.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-136.xml"; sourceTree = "<group>"; };
+		69D80BD31B5907D400431538 /* patient-137.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-137.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-137.xml"; sourceTree = "<group>"; };
+		69D80BD41B5907D400431538 /* patient-138.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-138.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-138.xml"; sourceTree = "<group>"; };
+		69D80BD51B5907D400431538 /* patient-141.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-141.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-141.xml"; sourceTree = "<group>"; };
+		69D80BD61B5907D400431538 /* patient-142.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-142.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-142.xml"; sourceTree = "<group>"; };
+		69D80BD71B5907D400431538 /* patient-143.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-143.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-143.xml"; sourceTree = "<group>"; };
+		69D80BD81B5907D400431538 /* patient-144.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-144.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-144.xml"; sourceTree = "<group>"; };
+		69D80BD91B5907D400431538 /* patient-145.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-145.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-145.xml"; sourceTree = "<group>"; };
+		69D80BDA1B5907D400431538 /* patient-146.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-146.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-146.xml"; sourceTree = "<group>"; };
+		69D80BDB1B5907D400431538 /* patient-147.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-147.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-147.xml"; sourceTree = "<group>"; };
+		69D80BDC1B5907D400431538 /* patient-148.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-148.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-148.xml"; sourceTree = "<group>"; };
+		69D80BDD1B5907D400431538 /* patient-149.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-149.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-149.xml"; sourceTree = "<group>"; };
+		69D80BDE1B5907D400431538 /* patient-150.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "patient-150.xml"; path = "../../Documents/pcm-r-scripts/patient-xml/patient-150.xml"; sourceTree = "<group>"; };
+		69D80BDF1B5907D400431538 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9252318735C3871B7FF72061 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A09096A19A3A24400272943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1B92F119B629D100DDA638 /* Accelerate.framework in Frameworks */,
+				2AC4F2AA19D4C0A40041EDA3 /* Security.framework in Frameworks */,
+				2A1B92F319B629DB00DDA638 /* QuartzCore.framework in Frameworks */,
+				2A09097319A3A24500272943 /* CoreGraphics.framework in Frameworks */,
+				2A09097719A3A24500272943 /* CoreData.framework in Frameworks */,
+				2A09097519A3A24500272943 /* UIKit.framework in Frameworks */,
+				2A09097119A3A24500272943 /* Foundation.framework in Frameworks */,
+				7DF824DC5CE1DA66DBC8FA14 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09098A19A3A24500272943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A09098F19A3A24500272943 /* XCTest.framework in Frameworks */,
+				2A09099219A3A24500272943 /* CoreData.framework in Frameworks */,
+				2A09099119A3A24500272943 /* UIKit.framework in Frameworks */,
+				2A09099019A3A24500272943 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A09096419A3A24400272943 = {
+			isa = PBXGroup;
+			children = (
+				2A08E7F81AC9C0CC00C9E277 /* Podfile */,
+				69D80BE01B5907D400431538 /* patient */,
+				2A09097819A3A24500272943 /* SMART Precision Cancer Medicine */,
+				2A09099519A3A24500272943 /* SMART Precision Cancer Medicine Tests */,
+				2A09096F19A3A24500272943 /* Frameworks */,
+				2A09096E19A3A24500272943 /* Products */,
+				D72D3249279C54279D83D214 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2A09096E19A3A24500272943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A09096D19A3A24500272943 /* SMART Precision Cancer Medicine.app */,
+				2A09098D19A3A24500272943 /* SMART Precision Cancer MedicineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A09096F19A3A24500272943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC4F2A919D4C0A40041EDA3 /* Security.framework */,
+				2A1B92F219B629DB00DDA638 /* QuartzCore.framework */,
+				2A1B92F019B629D100DDA638 /* Accelerate.framework */,
+				2A09097019A3A24500272943 /* Foundation.framework */,
+				2A09097219A3A24500272943 /* CoreGraphics.framework */,
+				2A09097419A3A24500272943 /* UIKit.framework */,
+				2A09097619A3A24500272943 /* CoreData.framework */,
+				2A09098E19A3A24500272943 /* XCTest.framework */,
+				9252318735C3871B7FF72061 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A09097819A3A24500272943 /* SMART Precision Cancer Medicine */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FCD9C1AF7C5520027E612 /* Plot */,
+				2AB2559A1AD81FDC006AE982 /* Controllers */,
+				2AB2559C1AD82019006AE982 /* Helpers */,
+				2A09098719A3A24500272943 /* Images.xcassets */,
+				2A8CA3A81AE7EF3F0027722C /* Models */,
+				2AB2559D1AD82027006AE982 /* Services */,
+				2AB2559B1AD82007006AE982 /* Views */,
+				2A173C0A1AEAEB6200F328CB /* PCM.xcdatamodeld */,
+				2A09098119A3A24500272943 /* RICAppDelegate.h */,
+				2A09098219A3A24500272943 /* RICAppDelegate.m */,
+				2A09097919A3A24500272943 /* Supporting Files */,
+			);
+			path = "SMART Precision Cancer Medicine";
+			sourceTree = "<group>";
+		};
+		2A09097919A3A24500272943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A6AA1771B56D6F700393D23 /* patient-xml */,
+				2A09097A19A3A24500272943 /* SMART Precision Cancer Medicine-Info.plist */,
+				2A09097B19A3A24500272943 /* InfoPlist.strings */,
+				2A09097E19A3A24500272943 /* main.m */,
+				2A09098019A3A24500272943 /* SMART Precision Cancer Medicine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A09099519A3A24500272943 /* SMART Precision Cancer Medicine Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A09099B19A3A24500272943 /* SMART_Precision_Cancer_MedicineTests.m */,
+				2A09099619A3A24500272943 /* Supporting Files */,
+			);
+			name = "SMART Precision Cancer Medicine Tests";
+			path = "SMART Precision Cancer MedicineTests";
+			sourceTree = "<group>";
+		};
+		2A09099619A3A24500272943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A09099719A3A24500272943 /* SMART Precision Cancer MedicineTests-Info.plist */,
+				2A09099819A3A24500272943 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A0D6D8C1AF2F58E006396AF /* About */ = {
+			isa = PBXGroup;
+			children = (
+				2A14C00919DC4E7500F531CF /* AboutUsBlueHeader.h */,
+				2A14C00A19DC4E7500F531CF /* AboutUsBlueHeader.m */,
+				2A14C00319DC402E00F531CF /* AboutUsSectionHeaderLabel.h */,
+				2A14C00419DC402E00F531CF /* AboutUsSectionHeaderLabel.m */,
+				2A14C00619DC44CB00F531CF /* AboutUsSpacerLabel.h */,
+				2A14C00719DC44CB00F531CF /* AboutUsSpacerLabel.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		2A0D6D931AF30F5A006396AF /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				2A99B54E19D1BF9300C0C911 /* LargePiePlotNavigationController.h */,
+				2A99B54F19D1BF9300C0C911 /* LargePiePlotNavigationController.m */,
+				697C300D1B737ED700FBA88F /* LOFOutlierPlotController.h */,
+				697C300E1B737ED700FBA88F /* LOFOutlierPlotController.m */,
+				2A1A190919D454AF0032B608 /* PatientPlotViewController.h */,
+				2A1A190A19D454AF0032B608 /* PatientPlotViewController.m */,
+				699C8B411B613FD90062947D /* MutationChartPlotViewController.h */,
+				699C8B421B613FD90062947D /* MutationChartPlotViewController.m */,
+				2AB4EBAF19AD37E1002A2EFF /* PatientSearchTableViewController.h */,
+				2AB4EBB019AD37E1002A2EFF /* PatientSearchTableViewController.m */,
+				2A78ECC819B0B8A700CD4595 /* PatientViewController.h */,
+				2A78ECC919B0B8A700CD4595 /* PatientViewController.m */,
+				699C8B501B69F0230062947D /* MutationSearchTableViewController.h */,
+				699C8B511B69F0230062947D /* MutationSearchTableViewController.m */,
+				699C8B471B69303A0062947D /* ObservationViewController.h */,
+				699C8B481B69303A0062947D /* ObservationViewController.m */,
+				2A0D6D971AF3D136006396AF /* DrugReferenceViewController.h */,
+				2A0D6D981AF3D136006396AF /* DrugReferenceViewController.m */,
+			);
+			name = Patient;
+			sourceTree = "<group>";
+		};
+		2A6AA1771B56D6F700393D23 /* patient-xml */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "patient-xml";
+			sourceTree = "<group>";
+		};
+		2A8CA3A81AE7EF3F0027722C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A173C131AEAEE2500F328CB /* Observation.h */,
+				2A173C141AEAEE2500F328CB /* Observation.m */,
+				2A173C101AEAEE2500F328CB /* Patient.h */,
+				2A173C111AEAEE2500F328CB /* Patient.m */,
+				2A173C0D1AEAEE2500F328CB /* DiagnosticReport.h */,
+				2A173C0E1AEAEE2500F328CB /* DiagnosticReport.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2A8CA7041AE8096A0027722C /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A8CA7011AE8040D0027722C /* SplashScreenView.h */,
+				2A8CA7021AE8040D0027722C /* SplashScreenView.m */,
+				2A8CA7051AE8097A0027722C /* SplashScreenFooterView.h */,
+				2A8CA7061AE8097A0027722C /* SplashScreenFooterView.m */,
+			);
+			name = SplashScreen;
+			sourceTree = "<group>";
+		};
+		2A9FCD991AF7C4510027E612 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				2AD84A4B19C1DBC1009511D2 /* PatientDetailLabel.h */,
+				2AD84A4C19C1DBC1009511D2 /* PatientDetailLabel.m */,
+				2AD84A4819C1DB2A009511D2 /* PatientViewTitleLabel.h */,
+				2AD84A4919C1DB2A009511D2 /* PatientViewTitleLabel.m */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
+		2A9FCD9C1AF7C5520027E612 /* Plot */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FCD9D1AF7C5F70027E612 /* PCMGraphHostingView.h */,
+				2A9FCD9E1AF7C5F70027E612 /* PCMGraphHostingView.m */,
+				2AFC8BF91AF8F0A500095BFB /* PCMMediumPieChart.h */,
+				2AFC8BFA1AF8F0A500095BFB /* PCMMediumPieChart.m */,
+				2A9FCDA01AF7C68B0027E612 /* PCMSmallPieChart.h */,
+				2A9FCDA11AF7C68B0027E612 /* PCMSmallPieChart.m */,
+				2A9FCDA31AF7C73D0027E612 /* PCMXYGraph.h */,
+				2A9FCDA41AF7C73D0027E612 /* PCMXYGraph.m */,
+				2AFC8C021AF92ED700095BFB /* PCMInnerPieChart.h */,
+				2AFC8C031AF92ED700095BFB /* PCMInnerPieChart.m */,
+				2AFC8C051AF93C5900095BFB /* PCMOuterPieChart.h */,
+				2AFC8C061AF93C5900095BFB /* PCMOuterPieChart.m */,
+			);
+			name = Plot;
+			sourceTree = "<group>";
+		};
+		2AB2559A1AD81FDC006AE982 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A0D6D931AF30F5A006396AF /* Patient */,
+				2A14BFFF19DC3CF300F531CF /* AboutUsController.h */,
+				2A14C00019DC3CF300F531CF /* AboutUsController.m */,
+				2A173C201AEE807100F328CB /* AdminViewController.h */,
+				2A173C211AEE807100F328CB /* AdminViewController.m */,
+				2A0B292319AA54B200493859 /* PrimaryTabBarController.h */,
+				2A0B292419AA54B200493859 /* PrimaryTabBarController.m */,
+				2A8CA6FE1AE803F10027722C /* SplashScreenViewController.h */,
+				2A8CA6FF1AE803F10027722C /* SplashScreenViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2AB2559B1AD82007006AE982 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A0D6D8C1AF2F58E006396AF /* About */,
+				2A8CA7041AE8096A0027722C /* SplashScreen */,
+				2AB2559E1AD82083006AE982 /* Patient */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2AB2559C1AD82019006AE982 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2A59857019D061D5000FF29C /* GeneDataHelper.h */,
+				2A59857119D061D5000FF29C /* GeneDataHelper.m */,
+				2A1A190C19D475390032B608 /* MutationDataHelper.h */,
+				2A1A190D19D475390032B608 /* MutationDataHelper.m */,
+				2A0D6D8D1AF30599006396AF /* DrugDataHelper.h */,
+				2A0D6D8E1AF30599006396AF /* DrugDataHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		2AB2559D1AD82027006AE982 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A173C1D1AEC149100F328CB /* EntitySearchService.h */,
+				2A173C1E1AEC149100F328CB /* EntitySearchService.m */,
+				2A8CA6FB1AE7FAC20027722C /* PatientResourceLoader.h */,
+				2A8CA6FC1AE7FAC20027722C /* PatientResourceLoader.m */,
+				2A8CA7081AE845100027722C /* PatientResourceLoaderDelegate.h */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2AB2559E1AD82083006AE982 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FCD991AF7C4510027E612 /* Label */,
+				2A0D6D371AF13D6A006396AF /* PatientContainerView.h */,
+				2A0D6D381AF13D6A006396AF /* PatientContainerView.m */,
+				699C8B4A1B693F2D0062947D /* ObservationContainerView.h */,
+				699C8B4B1B693F2D0062947D /* ObservationContainerView.m */,
+				699C8B4D1B694D690062947D /* GeneDetailView.h */,
+				699C8B4E1B694D690062947D /* GeneDetailView.m */,
+				699C8B441B68C48A0062947D /* MutationGeneTableView.h */,
+				699C8B451B68C48A0062947D /* MutationGeneTableView.m */,
+				2A78ECCB19B0B8B600CD4595 /* PatientDetailView.h */,
+				2A78ECCC19B0B8B600CD4595 /* PatientDetailView.m */,
+				2A0D6D9A1AF3DEF9006396AF /* DrugReferenceLinkView.h */,
+				2A0D6D9B1AF3DEF9006396AF /* DrugReferenceLinkView.m */,
+			);
+			name = Patient;
+			sourceTree = "<group>";
+		};
+		69D80BE01B5907D400431538 /* patient */ = {
+			isa = PBXGroup;
+			children = (
+				69D80B4B1B5907D400431538 /* patient-1.xml */,
+				69D80B4C1B5907D400431538 /* patient-2.xml */,
+				69D80B4D1B5907D400431538 /* patient-3.xml */,
+				69D80B4E1B5907D400431538 /* patient-4.xml */,
+				69D80B4F1B5907D400431538 /* patient-5.xml */,
+				69D80B501B5907D400431538 /* patient-6.xml */,
+				69D80B511B5907D400431538 /* patient-7.xml */,
+				69D80B521B5907D400431538 /* patient-8.xml */,
+				69D80B531B5907D400431538 /* patient-9.xml */,
+				69D80B541B5907D400431538 /* patient-10.xml */,
+				69D80B551B5907D400431538 /* patient-11.xml */,
+				69D80B561B5907D400431538 /* patient-12.xml */,
+				69D80B571B5907D400431538 /* patient-13.xml */,
+				69D80B581B5907D400431538 /* patient-14.xml */,
+				69D80B591B5907D400431538 /* patient-15.xml */,
+				69D80B5A1B5907D400431538 /* patient-16.xml */,
+				69D80B5B1B5907D400431538 /* patient-17.xml */,
+				69D80B5C1B5907D400431538 /* patient-18.xml */,
+				69D80B5D1B5907D400431538 /* patient-19.xml */,
+				69D80B5E1B5907D400431538 /* patient-20.xml */,
+				69D80B5F1B5907D400431538 /* patient-21.xml */,
+				69D80B601B5907D400431538 /* patient-22.xml */,
+				69D80B611B5907D400431538 /* patient-23.xml */,
+				69D80B621B5907D400431538 /* patient-24.xml */,
+				69D80B631B5907D400431538 /* patient-25.xml */,
+				69D80B641B5907D400431538 /* patient-26.xml */,
+				69D80B651B5907D400431538 /* patient-27.xml */,
+				69D80B661B5907D400431538 /* patient-28.xml */,
+				69D80B671B5907D400431538 /* patient-29.xml */,
+				69D80B681B5907D400431538 /* patient-30.xml */,
+				69D80B691B5907D400431538 /* patient-31.xml */,
+				69D80B6A1B5907D400431538 /* patient-32.xml */,
+				69D80B6B1B5907D400431538 /* patient-33.xml */,
+				69D80B6C1B5907D400431538 /* patient-34.xml */,
+				69D80B6D1B5907D400431538 /* patient-35.xml */,
+				69D80B6E1B5907D400431538 /* patient-36.xml */,
+				69D80B6F1B5907D400431538 /* patient-37.xml */,
+				69D80B701B5907D400431538 /* patient-38.xml */,
+				69D80B711B5907D400431538 /* patient-39.xml */,
+				69D80B721B5907D400431538 /* patient-40.xml */,
+				69D80B731B5907D400431538 /* patient-41.xml */,
+				69D80B741B5907D400431538 /* patient-42.xml */,
+				69D80B751B5907D400431538 /* patient-43.xml */,
+				69D80B761B5907D400431538 /* patient-44.xml */,
+				69D80B771B5907D400431538 /* patient-45.xml */,
+				69D80B781B5907D400431538 /* patient-46.xml */,
+				69D80B791B5907D400431538 /* patient-47.xml */,
+				69D80B7A1B5907D400431538 /* patient-48.xml */,
+				69D80B7B1B5907D400431538 /* patient-49.xml */,
+				69D80B7C1B5907D400431538 /* patient-50.xml */,
+				69D80B7D1B5907D400431538 /* patient-51.xml */,
+				69D80B7E1B5907D400431538 /* patient-52.xml */,
+				69D80B7F1B5907D400431538 /* patient-53.xml */,
+				69D80B801B5907D400431538 /* patient-54.xml */,
+				69D80B811B5907D400431538 /* patient-55.xml */,
+				69D80B821B5907D400431538 /* patient-56.xml */,
+				69D80B831B5907D400431538 /* patient-57.xml */,
+				69D80B841B5907D400431538 /* patient-58.xml */,
+				69D80B851B5907D400431538 /* patient-59.xml */,
+				69D80B861B5907D400431538 /* patient-60.xml */,
+				69D80B871B5907D400431538 /* patient-61.xml */,
+				69D80B881B5907D400431538 /* patient-62.xml */,
+				69D80B891B5907D400431538 /* patient-63.xml */,
+				69D80B8A1B5907D400431538 /* patient-64.xml */,
+				69D80B8B1B5907D400431538 /* patient-65.xml */,
+				69D80B8C1B5907D400431538 /* patient-66.xml */,
+				69D80B8D1B5907D400431538 /* patient-67.xml */,
+				69D80B8E1B5907D400431538 /* patient-68.xml */,
+				69D80B8F1B5907D400431538 /* patient-69.xml */,
+				69D80B901B5907D400431538 /* patient-70.xml */,
+				69D80B911B5907D400431538 /* patient-71.xml */,
+				69D80B921B5907D400431538 /* patient-72.xml */,
+				69D80B931B5907D400431538 /* patient-73.xml */,
+				69D80B941B5907D400431538 /* patient-74.xml */,
+				69D80B951B5907D400431538 /* patient-75.xml */,
+				69D80B961B5907D400431538 /* patient-76.xml */,
+				69D80B971B5907D400431538 /* patient-77.xml */,
+				69D80B981B5907D400431538 /* patient-78.xml */,
+				69D80B991B5907D400431538 /* patient-79.xml */,
+				69D80B9A1B5907D400431538 /* patient-80.xml */,
+				69D80B9B1B5907D400431538 /* patient-81.xml */,
+				69D80B9C1B5907D400431538 /* patient-82.xml */,
+				69D80B9D1B5907D400431538 /* patient-83.xml */,
+				69D80B9E1B5907D400431538 /* patient-84.xml */,
+				69D80B9F1B5907D400431538 /* patient-85.xml */,
+				69D80BA01B5907D400431538 /* patient-86.xml */,
+				69D80BA11B5907D400431538 /* patient-87.xml */,
+				69D80BA21B5907D400431538 /* patient-88.xml */,
+				69D80BA31B5907D400431538 /* patient-89.xml */,
+				69D80BA41B5907D400431538 /* patient-90.xml */,
+				69D80BA51B5907D400431538 /* patient-91.xml */,
+				69D80BA61B5907D400431538 /* patient-92.xml */,
+				69D80BA71B5907D400431538 /* patient-93.xml */,
+				69D80BA81B5907D400431538 /* patient-94.xml */,
+				69D80BA91B5907D400431538 /* patient-95.xml */,
+				69D80BAA1B5907D400431538 /* patient-96.xml */,
+				69D80BAB1B5907D400431538 /* patient-97.xml */,
+				69D80BAC1B5907D400431538 /* patient-98.xml */,
+				69D80BAD1B5907D400431538 /* patient-99.xml */,
+				69D80BAE1B5907D400431538 /* patient-100.xml */,
+				69D80BAF1B5907D400431538 /* patient-101.xml */,
+				69D80BB01B5907D400431538 /* patient-102.xml */,
+				69D80BB11B5907D400431538 /* patient-103.xml */,
+				69D80BB21B5907D400431538 /* patient-104.xml */,
+				69D80BB31B5907D400431538 /* patient-105.xml */,
+				69D80BB41B5907D400431538 /* patient-106.xml */,
+				69D80BB51B5907D400431538 /* patient-107.xml */,
+				69D80BB61B5907D400431538 /* patient-108.xml */,
+				69D80BB71B5907D400431538 /* patient-109.xml */,
+				69D80BB81B5907D400431538 /* patient-110.xml */,
+				69D80BB91B5907D400431538 /* patient-111.xml */,
+				69D80BBA1B5907D400431538 /* patient-112.xml */,
+				69D80BBB1B5907D400431538 /* patient-113.xml */,
+				69D80BBC1B5907D400431538 /* patient-114.xml */,
+				69D80BBD1B5907D400431538 /* patient-115.xml */,
+				69D80BBE1B5907D400431538 /* patient-116.xml */,
+				69D80BBF1B5907D400431538 /* patient-117.xml */,
+				69D80BC01B5907D400431538 /* patient-118.xml */,
+				69D80BC11B5907D400431538 /* patient-119.xml */,
+				69D80BC21B5907D400431538 /* patient-120.xml */,
+				69D80BC31B5907D400431538 /* patient-121.xml */,
+				69D80BC41B5907D400431538 /* patient-122.xml */,
+				69D80BC51B5907D400431538 /* patient-123.xml */,
+				69D80BC61B5907D400431538 /* patient-124.xml */,
+				69D80BC71B5907D400431538 /* patient-125.xml */,
+				69D80BC81B5907D400431538 /* patient-126.xml */,
+				69D80BC91B5907D400431538 /* patient-127.xml */,
+				69D80BCA1B5907D400431538 /* patient-128.xml */,
+				69D80BCB1B5907D400431538 /* patient-129.xml */,
+				69D80BCC1B5907D400431538 /* patient-130.xml */,
+				69D80BCD1B5907D400431538 /* patient-131.xml */,
+				69D80BCE1B5907D400431538 /* patient-132.xml */,
+				69D80BCF1B5907D400431538 /* patient-133.xml */,
+				69D80BD01B5907D400431538 /* patient-134.xml */,
+				69D80BD11B5907D400431538 /* patient-135.xml */,
+				69D80BD21B5907D400431538 /* patient-136.xml */,
+				69D80BD31B5907D400431538 /* patient-137.xml */,
+				69D80BD41B5907D400431538 /* patient-138.xml */,
+				69D80BD51B5907D400431538 /* patient-141.xml */,
+				69D80BD61B5907D400431538 /* patient-142.xml */,
+				69D80BD71B5907D400431538 /* patient-143.xml */,
+				69D80BD81B5907D400431538 /* patient-144.xml */,
+				69D80BD91B5907D400431538 /* patient-145.xml */,
+				69D80BDA1B5907D400431538 /* patient-146.xml */,
+				69D80BDB1B5907D400431538 /* patient-147.xml */,
+				69D80BDC1B5907D400431538 /* patient-148.xml */,
+				69D80BDD1B5907D400431538 /* patient-149.xml */,
+				69D80BDE1B5907D400431538 /* patient-150.xml */,
+				69D80BDF1B5907D400431538 /* README.md */,
+			);
+			name = patient;
+			sourceTree = "<group>";
+		};
+		D72D3249279C54279D83D214 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03FCBF6913CA43D50C81A022 /* Pods.debug.xcconfig */,
+				10BF71A930E4DB2FDD242BCF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A09096C19A3A24400272943 /* SMART Precision Cancer Medicine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A09099F19A3A24500272943 /* Build configuration list for PBXNativeTarget "SMART Precision Cancer Medicine" */;
+			buildPhases = (
+				F0025B285DB7026EDDC28E85 /* Check Pods Manifest.lock */,
+				2A09096919A3A24400272943 /* Sources */,
+				2A09096A19A3A24400272943 /* Frameworks */,
+				2A09096B19A3A24400272943 /* Resources */,
+				A8CC762D6CD05D6B7C06C5EE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMART Precision Cancer Medicine";
+			productName = "SMART Precision Cancer Medicine";
+			productReference = 2A09096D19A3A24500272943 /* SMART Precision Cancer Medicine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A09098C19A3A24500272943 /* SMART Precision Cancer MedicineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0909A219A3A24500272943 /* Build configuration list for PBXNativeTarget "SMART Precision Cancer MedicineTests" */;
+			buildPhases = (
+				2A09098919A3A24500272943 /* Sources */,
+				2A09098A19A3A24500272943 /* Frameworks */,
+				2A09098B19A3A24500272943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A09099419A3A24500272943 /* PBXTargetDependency */,
+			);
+			name = "SMART Precision Cancer MedicineTests";
+			productName = "SMART Precision Cancer MedicineTests";
+			productReference = 2A09098D19A3A24500272943 /* SMART Precision Cancer MedicineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A09096519A3A24400272943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RIC;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = RIC;
+				TargetAttributes = {
+					2A09096C19A3A24400272943 = {
+						DevelopmentTeam = PG8XTT48W8;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
+					2A09098C19A3A24500272943 = {
+						TestTargetID = 2A09096C19A3A24400272943;
+					};
+				};
+			};
+			buildConfigurationList = 2A09096819A3A24400272943 /* Build configuration list for PBXProject "SMART Precision Cancer Medicine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A09096419A3A24400272943;
+			productRefGroup = 2A09096E19A3A24500272943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A09096C19A3A24400272943 /* SMART Precision Cancer Medicine */,
+				2A09098C19A3A24500272943 /* SMART Precision Cancer MedicineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A09096B19A3A24400272943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D80C141B5907D400431538 /* patient-52.xml in Resources */,
+				69D80C221B5907D400431538 /* patient-66.xml in Resources */,
+				69D80C0A1B5907D400431538 /* patient-42.xml in Resources */,
+				69D80BEC1B5907D400431538 /* patient-12.xml in Resources */,
+				69D80C661B5907D400431538 /* patient-134.xml in Resources */,
+				69D80C011B5907D400431538 /* patient-33.xml in Resources */,
+				69D80C101B5907D400431538 /* patient-48.xml in Resources */,
+				2A09097D19A3A24500272943 /* InfoPlist.strings in Resources */,
+				69D80C211B5907D400431538 /* patient-65.xml in Resources */,
+				69D80C421B5907D400431538 /* patient-98.xml in Resources */,
+				69D80C701B5907D400431538 /* patient-146.xml in Resources */,
+				69D80C481B5907D400431538 /* patient-104.xml in Resources */,
+				69D80C4C1B5907D400431538 /* patient-108.xml in Resources */,
+				69D80C6F1B5907D400431538 /* patient-145.xml in Resources */,
+				69D80BF81B5907D400431538 /* patient-24.xml in Resources */,
+				69D80C2B1B5907D400431538 /* patient-75.xml in Resources */,
+				69D80C2C1B5907D400431538 /* patient-76.xml in Resources */,
+				69D80C691B5907D400431538 /* patient-137.xml in Resources */,
+				69D80BF51B5907D400431538 /* patient-21.xml in Resources */,
+				69D80BE71B5907D400431538 /* patient-7.xml in Resources */,
+				69D80C591B5907D400431538 /* patient-121.xml in Resources */,
+				69D80C681B5907D400431538 /* patient-136.xml in Resources */,
+				69D80BF31B5907D400431538 /* patient-19.xml in Resources */,
+				69D80C671B5907D400431538 /* patient-135.xml in Resources */,
+				69D80BEF1B5907D400431538 /* patient-15.xml in Resources */,
+				69D80BFE1B5907D400431538 /* patient-30.xml in Resources */,
+				69D80BF41B5907D400431538 /* patient-20.xml in Resources */,
+				69D80C6A1B5907D400431538 /* patient-138.xml in Resources */,
+				69D80C281B5907D400431538 /* patient-72.xml in Resources */,
+				69D80C431B5907D400431538 /* patient-99.xml in Resources */,
+				69D80BF01B5907D400431538 /* patient-16.xml in Resources */,
+				69D80C491B5907D400431538 /* patient-105.xml in Resources */,
+				69D80C711B5907D400431538 /* patient-147.xml in Resources */,
+				69D80BED1B5907D400431538 /* patient-13.xml in Resources */,
+				69D80C311B5907D400431538 /* patient-81.xml in Resources */,
+				69D80C721B5907D400431538 /* patient-148.xml in Resources */,
+				69D80C4D1B5907D400431538 /* patient-109.xml in Resources */,
+				69D80C021B5907D400431538 /* patient-34.xml in Resources */,
+				69D80BF21B5907D400431538 /* patient-18.xml in Resources */,
+				69D80BE21B5907D400431538 /* patient-2.xml in Resources */,
+				69D80BE91B5907D400431538 /* patient-9.xml in Resources */,
+				69D80C2E1B5907D400431538 /* patient-78.xml in Resources */,
+				69D80C1B1B5907D400431538 /* patient-59.xml in Resources */,
+				69D80C3B1B5907D400431538 /* patient-91.xml in Resources */,
+				69D80C6D1B5907D400431538 /* patient-143.xml in Resources */,
+				69D80C471B5907D400431538 /* patient-103.xml in Resources */,
+				69D80C731B5907D400431538 /* patient-149.xml in Resources */,
+				69D80C601B5907D400431538 /* patient-128.xml in Resources */,
+				69D80BE81B5907D400431538 /* patient-8.xml in Resources */,
+				69D80C351B5907D400431538 /* patient-85.xml in Resources */,
+				69D80BEE1B5907D400431538 /* patient-14.xml in Resources */,
+				69D80C1D1B5907D400431538 /* patient-61.xml in Resources */,
+				69D80C2F1B5907D400431538 /* patient-79.xml in Resources */,
+				69D80C521B5907D400431538 /* patient-114.xml in Resources */,
+				69D80C0C1B5907D400431538 /* patient-44.xml in Resources */,
+				69D80BE41B5907D400431538 /* patient-4.xml in Resources */,
+				69D80C581B5907D400431538 /* patient-120.xml in Resources */,
+				69D80C161B5907D400431538 /* patient-54.xml in Resources */,
+				69D80C331B5907D400431538 /* patient-83.xml in Resources */,
+				69D80C181B5907D400431538 /* patient-56.xml in Resources */,
+				69D80C151B5907D400431538 /* patient-53.xml in Resources */,
+				69D80C171B5907D400431538 /* patient-55.xml in Resources */,
+				69D80BFC1B5907D400431538 /* patient-28.xml in Resources */,
+				69D80C611B5907D400431538 /* patient-129.xml in Resources */,
+				69D80C551B5907D400431538 /* patient-117.xml in Resources */,
+				69D80C091B5907D400431538 /* patient-41.xml in Resources */,
+				69D80BF61B5907D400431538 /* patient-22.xml in Resources */,
+				69D80C561B5907D400431538 /* patient-118.xml in Resources */,
+				69D80C0D1B5907D400431538 /* patient-45.xml in Resources */,
+				69D80BE51B5907D400431538 /* patient-5.xml in Resources */,
+				69D80C5C1B5907D400431538 /* patient-124.xml in Resources */,
+				69D80C041B5907D400431538 /* patient-36.xml in Resources */,
+				69D80C261B5907D400431538 /* patient-70.xml in Resources */,
+				69D80C1E1B5907D400431538 /* patient-62.xml in Resources */,
+				69D80C241B5907D400431538 /* patient-68.xml in Resources */,
+				69D80C381B5907D400431538 /* patient-88.xml in Resources */,
+				69D80C061B5907D400431538 /* patient-38.xml in Resources */,
+				69D80C0B1B5907D400431538 /* patient-43.xml in Resources */,
+				69D80C371B5907D400431538 /* patient-87.xml in Resources */,
+				69D80C531B5907D400431538 /* patient-115.xml in Resources */,
+				69D80C2D1B5907D400431538 /* patient-77.xml in Resources */,
+				69D80C191B5907D400431538 /* patient-57.xml in Resources */,
+				69D80C621B5907D400431538 /* patient-130.xml in Resources */,
+				69D80C411B5907D400431538 /* patient-97.xml in Resources */,
+				2A08E7F91AC9C0CC00C9E277 /* Podfile in Resources */,
+				69D80C0F1B5907D400431538 /* patient-47.xml in Resources */,
+				69D80C5D1B5907D400431538 /* patient-125.xml in Resources */,
+				69D80C071B5907D400431538 /* patient-39.xml in Resources */,
+				69D80C461B5907D400431538 /* patient-102.xml in Resources */,
+				69D80C4E1B5907D400431538 /* patient-110.xml in Resources */,
+				69D80C0E1B5907D400431538 /* patient-46.xml in Resources */,
+				69D80C031B5907D400431538 /* patient-35.xml in Resources */,
+				69D80C121B5907D400431538 /* patient-50.xml in Resources */,
+				69D80C3E1B5907D400431538 /* patient-94.xml in Resources */,
+				69D80C6B1B5907D400431538 /* patient-141.xml in Resources */,
+				69D80C201B5907D400431538 /* patient-64.xml in Resources */,
+				69D80C451B5907D400431538 /* patient-101.xml in Resources */,
+				69D80C1C1B5907D400431538 /* patient-60.xml in Resources */,
+				69D80C361B5907D400431538 /* patient-86.xml in Resources */,
+				69D80C1F1B5907D400431538 /* patient-63.xml in Resources */,
+				69D80C231B5907D400431538 /* patient-67.xml in Resources */,
+				69D80C6E1B5907D400431538 /* patient-144.xml in Resources */,
+				69D80C321B5907D400431538 /* patient-82.xml in Resources */,
+				69D80C501B5907D400431538 /* patient-112.xml in Resources */,
+				69D80C051B5907D400431538 /* patient-37.xml in Resources */,
+				69D80BE31B5907D400431538 /* patient-3.xml in Resources */,
+				69D80C391B5907D400431538 /* patient-89.xml in Resources */,
+				69D80BFB1B5907D400431538 /* patient-27.xml in Resources */,
+				69D80C631B5907D400431538 /* patient-131.xml in Resources */,
+				69D80C5F1B5907D400431538 /* patient-127.xml in Resources */,
+				69D80BEA1B5907D400431538 /* patient-10.xml in Resources */,
+				69D80BF11B5907D400431538 /* patient-17.xml in Resources */,
+				69D80C441B5907D400431538 /* patient-100.xml in Resources */,
+				69D80C001B5907D400431538 /* patient-32.xml in Resources */,
+				69D80C6C1B5907D400431538 /* patient-142.xml in Resources */,
+				69D80C3F1B5907D400431538 /* patient-95.xml in Resources */,
+				69D80C5E1B5907D400431538 /* patient-126.xml in Resources */,
+				69D80BE61B5907D400431538 /* patient-6.xml in Resources */,
+				69D80C291B5907D400431538 /* patient-73.xml in Resources */,
+				69D80C5A1B5907D400431538 /* patient-122.xml in Resources */,
+				69D80C1A1B5907D400431538 /* patient-58.xml in Resources */,
+				69D80BF71B5907D400431538 /* patient-23.xml in Resources */,
+				69D80C511B5907D400431538 /* patient-113.xml in Resources */,
+				69D80BFF1B5907D400431538 /* patient-31.xml in Resources */,
+				69D80C081B5907D400431538 /* patient-40.xml in Resources */,
+				69D80C651B5907D400431538 /* patient-133.xml in Resources */,
+				69D80C3C1B5907D400431538 /* patient-92.xml in Resources */,
+				69D80BFD1B5907D400431538 /* patient-29.xml in Resources */,
+				2A09098819A3A24500272943 /* Images.xcassets in Resources */,
+				69D80C401B5907D400431538 /* patient-96.xml in Resources */,
+				69D80BFA1B5907D400431538 /* patient-26.xml in Resources */,
+				69D80C571B5907D400431538 /* patient-119.xml in Resources */,
+				69D80C4B1B5907D400431538 /* patient-107.xml in Resources */,
+				69D80C741B5907D400431538 /* patient-150.xml in Resources */,
+				69D80C541B5907D400431538 /* patient-116.xml in Resources */,
+				69D80C111B5907D400431538 /* patient-49.xml in Resources */,
+				69D80C5B1B5907D400431538 /* patient-123.xml in Resources */,
+				69D80C2A1B5907D400431538 /* patient-74.xml in Resources */,
+				69D80BE11B5907D400431538 /* patient-1.xml in Resources */,
+				69D80C4A1B5907D400431538 /* patient-106.xml in Resources */,
+				69D80C3A1B5907D400431538 /* patient-90.xml in Resources */,
+				69D80C271B5907D400431538 /* patient-71.xml in Resources */,
+				69D80BF91B5907D400431538 /* patient-25.xml in Resources */,
+				69D80BEB1B5907D400431538 /* patient-11.xml in Resources */,
+				69D80C3D1B5907D400431538 /* patient-93.xml in Resources */,
+				69D80C4F1B5907D400431538 /* patient-111.xml in Resources */,
+				69D80C641B5907D400431538 /* patient-132.xml in Resources */,
+				69D80C341B5907D400431538 /* patient-84.xml in Resources */,
+				69D80C251B5907D400431538 /* patient-69.xml in Resources */,
+				69D80C301B5907D400431538 /* patient-80.xml in Resources */,
+				69D80C131B5907D400431538 /* patient-51.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09098B19A3A24500272943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A09099A19A3A24500272943 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8CC762D6CD05D6B7C06C5EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0025B285DB7026EDDC28E85 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A09096919A3A24400272943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699C8B4C1B693F2D0062947D /* ObservationContainerView.m in Sources */,
+				2A14C00519DC402E00F531CF /* AboutUsSectionHeaderLabel.m in Sources */,
+				2A8CA7031AE8040D0027722C /* SplashScreenView.m in Sources */,
+				2A9FCDA51AF7C73D0027E612 /* PCMXYGraph.m in Sources */,
+				699C8B4F1B694D690062947D /* GeneDetailView.m in Sources */,
+				2A0D6D991AF3D136006396AF /* DrugReferenceViewController.m in Sources */,
+				2A173C0F1AEAEE2500F328CB /* DiagnosticReport.m in Sources */,
+				699C8B521B69F0230062947D /* MutationSearchTableViewController.m in Sources */,
+				2A0D6D391AF13D6A006396AF /* PatientContainerView.m in Sources */,
+				2A99B55019D1BF9300C0C911 /* LargePiePlotNavigationController.m in Sources */,
+				2A09097F19A3A24500272943 /* main.m in Sources */,
+				2A9FCDA21AF7C68B0027E612 /* PCMSmallPieChart.m in Sources */,
+				699C8B491B69303A0062947D /* ObservationViewController.m in Sources */,
+				2A0B292519AA54B200493859 /* PrimaryTabBarController.m in Sources */,
+				2A0D6D8F1AF30599006396AF /* DrugDataHelper.m in Sources */,
+				2A14C00B19DC4E7500F531CF /* AboutUsBlueHeader.m in Sources */,
+				2A1A190B19D454AF0032B608 /* PatientPlotViewController.m in Sources */,
+				2A59857219D061D5000FF29C /* GeneDataHelper.m in Sources */,
+				2AFC8C071AF93C5900095BFB /* PCMOuterPieChart.m in Sources */,
+				699C8B431B613FD90062947D /* MutationChartPlotViewController.m in Sources */,
+				2A173C151AEAEE2500F328CB /* Observation.m in Sources */,
+				2A173C0C1AEAEB6200F328CB /* PCM.xcdatamodeld in Sources */,
+				2AFC8C041AF92ED700095BFB /* PCMInnerPieChart.m in Sources */,
+				2A0D6D9C1AF3DEF9006396AF /* DrugReferenceLinkView.m in Sources */,
+				2AD84A4D19C1DBC1009511D2 /* PatientDetailLabel.m in Sources */,
+				2A8CA7071AE8097A0027722C /* SplashScreenFooterView.m in Sources */,
+				2A173C121AEAEE2500F328CB /* Patient.m in Sources */,
+				2AD84A4A19C1DB2A009511D2 /* PatientViewTitleLabel.m in Sources */,
+				2A1A190E19D475390032B608 /* MutationDataHelper.m in Sources */,
+				2A8CA7001AE803F10027722C /* SplashScreenViewController.m in Sources */,
+				2A8CA6FD1AE7FAC20027722C /* PatientResourceLoader.m in Sources */,
+				2A78ECCA19B0B8A700CD4595 /* PatientViewController.m in Sources */,
+				697C300F1B737ED700FBA88F /* LOFOutlierPlotController.m in Sources */,
+				2AFC8BFB1AF8F0A500095BFB /* PCMMediumPieChart.m in Sources */,
+				2A14C00819DC44CB00F531CF /* AboutUsSpacerLabel.m in Sources */,
+				69D80C751B5907D400431538 /* README.md in Sources */,
+				2A9FCD9F1AF7C5F70027E612 /* PCMGraphHostingView.m in Sources */,
+				2A78ECCD19B0B8B600CD4595 /* PatientDetailView.m in Sources */,
+				2A173C221AEE807100F328CB /* AdminViewController.m in Sources */,
+				2AB4EBB119AD37E1002A2EFF /* PatientSearchTableViewController.m in Sources */,
+				2A173C1F1AEC149100F328CB /* EntitySearchService.m in Sources */,
+				2A09098319A3A24500272943 /* RICAppDelegate.m in Sources */,
+				699C8B461B68C48A0062947D /* MutationGeneTableView.m in Sources */,
+				2A14C00119DC3CF300F531CF /* AboutUsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09098919A3A24500272943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A09099C19A3A24500272943 /* SMART_Precision_Cancer_MedicineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A09099419A3A24500272943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A09096C19A3A24400272943 /* SMART Precision Cancer Medicine */;
+			targetProxy = 2A09099319A3A24500272943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A09097B19A3A24500272943 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A09097C19A3A24500272943 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A09099819A3A24500272943 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A09099919A3A24500272943 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A09099D19A3A24500272943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2A09099E19A3A24500272943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A0909A019A3A24500272943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FCBF6913CA43D50C81A022 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SMART Precision Cancer Medicine/SMART Precision Cancer Medicine-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SMART Precision Cancer Medicine/SMART Precision Cancer Medicine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "SMART Precision Cancer Medicine";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A0909A119A3A24500272943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BF71A930E4DB2FDD242BCF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SMART Precision Cancer Medicine/SMART Precision Cancer Medicine-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SMART Precision Cancer Medicine/SMART Precision Cancer Medicine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "SMART Precision Cancer Medicine";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A0909A319A3A24500272943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SMART Precision Cancer Medicine.app/SMART Precision Cancer Medicine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SMART Precision Cancer Medicine/SMART Precision Cancer Medicine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SMART Precision Cancer MedicineTests/SMART Precision Cancer MedicineTests-Info.plist";
+				PRODUCT_NAME = "SMART Precision Cancer MedicineTests";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2A0909A419A3A24500272943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SMART Precision Cancer Medicine.app/SMART Precision Cancer Medicine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SMART Precision Cancer Medicine/SMART Precision Cancer Medicine-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SMART Precision Cancer MedicineTests/SMART Precision Cancer MedicineTests-Info.plist";
+				PRODUCT_NAME = "SMART Precision Cancer MedicineTests";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A09096819A3A24400272943 /* Build configuration list for PBXProject "SMART Precision Cancer Medicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A09099D19A3A24500272943 /* Debug */,
+				2A09099E19A3A24500272943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A09099F19A3A24500272943 /* Build configuration list for PBXNativeTarget "SMART Precision Cancer Medicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0909A019A3A24500272943 /* Debug */,
+				2A0909A119A3A24500272943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0909A219A3A24500272943 /* Build configuration list for PBXNativeTarget "SMART Precision Cancer MedicineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0909A319A3A24500272943 /* Debug */,
+				2A0909A419A3A24500272943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A173C0A1AEAEB6200F328CB /* PCM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A173C0B1AEAEB6200F328CB /* PCM.xcdatamodel */,
+			);
+			currentVersion = 2A173C0B1AEAEB6200F328CB /* PCM.xcdatamodel */;
+			path = PCM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A09096519A3A24400272943 /* Project object */;
+}
